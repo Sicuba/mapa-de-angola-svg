@@ -1,3 +1,8 @@
+Olá, este projecto foi feito por mim, para ajudar dev´s principalmente angolanos que queiram usar o mapa de Angola em seus projectos.
+O objectivo é ir melhorando suas funcionalidades.
+.
+.
+.
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
