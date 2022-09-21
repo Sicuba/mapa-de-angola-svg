@@ -4,6 +4,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import { Modal, Input, Row, Checkbox, Button, Text } from "@nextui-org/react";
 import { Table } from '@nextui-org/react';
+import Link from 'next/link';
 export default function Home() {
 
   const [visible, setVisible] = useState();
@@ -29,7 +30,9 @@ export default function Home() {
           Testando a Lib NextUi 
          
         </p>
-        <Button color="gradient" auto>Gradient</Button>
+        <Link href="/map">
+          <a><Button color="gradient" auto>Ir ao Mapa</Button></a>
+        </Link>
 
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
